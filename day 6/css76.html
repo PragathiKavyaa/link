@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS76.html</title>
+    <style>
+        header{
+            text-align: center;
+            border: 2px solid green;
+        }
+        section{
+            margin: 10px;
+            box-sizing: content-box;
+            width: 500px;
+            height: 500px;
+            box-shadow: 5px 5px 10px rgba(255, 100, 50, 0.5);
+        }
+        .one{
+            padding: 10px;
+            border: 2px solid black;
+        }
+        .two{
+            padding: 20px;
+            border: 2px solid black;
+        }
+        .three{
+            padding: 30px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <header>CSS76, 77 & 78</header>
+    <section>
+        <div id="one" class="one">
+            Apply box-sizing to make two div elements with the same 
+                width appear identical, even with different paddings.
+        </div>
+        <div id="two" class="two">
+            Use box-shadow and margin together to create a visually separated card layout.
+        </div>
+        <div id="three" class="three">
+            Center a header both horizontally and vertically using flexbox.
+        </div>
+    </section>
+</body>
+</html>
