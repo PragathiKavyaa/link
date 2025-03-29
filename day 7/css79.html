@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS79</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            width: 700px;
+            height: 500px;
+            border: 2px solid red;
+        }
+        .image{
+            width: 100px;
+            height: 100px;
+            margin: 20px;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            flex: auto;
+        }
+        .des{
+            font-size: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="column">
+                <div class="image">
+                    <img src="./assest/baby.jpg" alt="baby"><br>
+                    <p class="des">Sticker</p>
+                </div><br>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
